@@ -38,19 +38,6 @@ Git: For cloning the repository (https://git-scm.com/)
 Clone the repository:git clone https://github.com/BenjerryX/juice-planner.git
 cd juice-planner
 
-Verify the folder structure:juice-planner/
-├── docker-compose.yml
-├── Juice Planner Frontend/
-│   ├── juice-planner-frontend/
-│   │   ├── Dockerfile
-│   │   ├── package.json
-│   │   ├── src/
-├── Juice Planner Backend/
-│   ├── backend/  # Confirm correct backend folder name
-│   │   ├── Dockerfile
-│   │   ├── package.json
-│   │   ├── server.js
-
 ### Docker
 Update docker-compose.yml with the correct MongoDB Atlas connection string and backend folder path:environment:
   - MONGODB_URI=mongodb+srv://Benjerry:123benjerrY@cluster-benjerry.rnjjawb.mongodb.net/?retryWrites=true&w=majority&appName=cluster-Benjerry
